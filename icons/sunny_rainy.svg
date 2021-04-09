@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:cc="http://web.resource.org/cc/"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    xmlns:ns1="http://sozi.baierouge.fr"
+    id="weather"
+    viewBox="0 0 187 187"
+    version="1.0"
+  >
+  <path
+      style="stroke:#000;stroke-width:7;fill:#FF0"
+      d="m53.225 34.864a31.435 31.435 0 1 1 -62.87 0 31.435 31.435 0 1 1 62.87 0z"
+      transform="translate(97.474 38.423)"
+  />
+  <path
+      style="stroke-linejoin:round;stroke:#000;stroke-width:7"
+      d="m118.91 7.5585l-0.53125 29.125 0.53125-29.125zm-32.781 8.25s14.406 26.031 14.406 26.031-14.406-26.031-14.406-26.031zm65.344 1l-14.656 24.344 14.656-24.344zm-89.624 22.563l25.781 15.5-25.781-15.5zm113.16 1.6875l-24.281 13.438 24.281-13.438zm-122.42 30.844s30.062 0.5625 30.062 0.5625-30.062-0.5625-30.062-0.5625zm103.28 1.6562s27.406 0.3125 27.406 0.3125-27.406-0.3125-27.406-0.3125zm-69.094 16.625l-25.906 14.531 25.906-14.531zm63.719 2.25l23.531 13.969-23.531-13.969zm-51.25 11.531l-14.844 25.031 14.844-25.031zm36.906 1.8125l13.594 24.188-13.594-24.188zm-18.875 4.0625l-0.3125 28.375 0.3125-28.375z"
+  />
+  <path
+      style="stroke:#000;stroke-width:7;fill:#FFF"
+      d="m31.652 78.031c-9.933-0.141-19.172 5.078-24.179 13.657-5.0074 8.5794-5.0074 19.19 0 27.77 5.0074 8.5794 14.246 13.798 24.179 13.658h72.368c9.9328 0.14047 19.172-5.0782 24.179-13.658 5.0074-8.5794 5.0074-19.19 0-27.77-5.0074-8.5794-14.246-13.798-24.179-13.658h-72.368z"
+  />
+  <path
+      style="stroke:#000;stroke-width:7;stroke-linecap:round;fill:#FFF"
+      d="m91.406 80.702c-0.428-16.134-13.638-29.094-29.875-29.094-16.507 0-29.875 13.368-29.875 29.875 0.000001 7.23 2.537 13.89 6.8125 19.062"
+  />
+  <path
+      id="drop"
+      style="stroke:#000;stroke-width:7;fill:#5cbdf5"
+      d="m41.418 150.39c-2.5505 7.3107-9.5908 14.318-7.9688 22.562 2.6018 6.3807 13.182 5.8303 14.906-1.0625 3.0291-8.6192-0.82763-17.738-5.25-25.094-0.5625 1.1979-1.125 2.3958-1.6875 3.5938z"
+  />
+  <use
+      xlink:href="#drop"
+      transform="translate(28.284 -4.5457)"
+  />
+  <use
+      xlink:href="#drop"
+      transform="translate(52.528 2.0203)"
+  />
+  <metadata
+    >
+    <rdf:RDF
+      >
+      <cc:Work
+        >
+        <dc:format
+          >image/svg+xml</dc:format
+        >
+        <dc:type
+            rdf:resource="http://purl.org/dc/dcmitype/StillImage"
+        />
+        <cc:license
+            rdf:resource="http://creativecommons.org/licenses/publicdomain/"
+        />
+        <dc:publisher
+          >
+          <cc:Agent
+              rdf:about="http://openclipart.org/"
+            >
+            <dc:title
+              >Openclipart</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:publisher
+        >
+        <dc:title
+          >showers and sunny periods</dc:title
+        >
+        <dc:date
+          >2011-02-26T13:49:52</dc:date
+        >
+        <dc:description
+          >Coloured icon with stylised sun partly covered by a cloud that is releasing raindrops. I tried to make it especially suited for lowest resolutions. It is designed to be easily recognised as/associated with the symbols for weather conditions found in the popular weather forecasts in newspapers (at least around here...), symbolising a weather condition like "showers and sunny periods".</dc:description
+        >
+        <dc:source
+          >https://openclipart.org/detail/122887/showers-and-sunny-periods-by-pawnk</dc:source
+        >
+        <dc:creator
+          >
+          <cc:Agent
+            >
+            <dc:title
+              >pawnk</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:creator
+        >
+        <dc:subject
+          >
+          <rdf:Bag
+            >
+            <rdf:li
+              >Cloud</rdf:li
+            >
+            <rdf:li
+              >Clouds</rdf:li
+            >
+            <rdf:li
+              >Sun</rdf:li
+            >
+            <rdf:li
+              >Weather</rdf:li
+            >
+            <rdf:li
+              >cleanup</rdf:li
+            >
+            <rdf:li
+              >cloudy</rdf:li
+            >
+            <rdf:li
+              >drops</rdf:li
+            >
+            <rdf:li
+              >light</rdf:li
+            >
+            <rdf:li
+              >rain</rdf:li
+            >
+            <rdf:li
+              >rainy</rdf:li
+            >
+            <rdf:li
+              >ray</rdf:li
+            >
+          </rdf:Bag
+          >
+        </dc:subject
+        >
+      </cc:Work
+      >
+      <cc:License
+          rdf:about="http://creativecommons.org/licenses/publicdomain/"
+        >
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Reproduction"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Distribution"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#DerivativeWorks"
+        />
+      </cc:License
+      >
+    </rdf:RDF
+    >
+  </metadata
+  >
+</svg
+>
