@@ -24,7 +24,10 @@
 input {
     outline: none;
     border: 1.1px solid greenyellow;
-    background: inherit;
+    /* background: inherit; */
+    background: linear-gradient(to left, silver, black);
+    opacity: 80%;
+    color: greenyellow;
 }
 
 .weather {
@@ -37,6 +40,11 @@ input {
     display: flex;
     flex-direction: column;
     align-items: center ;
+    /* background-blend-mode: luminosity; */
+    /* background-color: silver; */
+    /* background-image: linear-gradient(to left, silver, black); */
+    /* background: linear-gradient(to left, silver, black); */
+    /* opacity: 89%; */
 }
 
 .w-now {
@@ -62,6 +70,8 @@ input {
 
 .right-view {
     width: 29vw;
+    /* background-image: linear-gradient(to left, silver, black);
+    opacity: 89%; */
 }
 
 .right-view fieldset {
@@ -74,6 +84,8 @@ input {
     /* flex-direction: row; */
     justify-content: center;
     margin-top: 4px;
+    /* background-image: linear-gradient(to left, silver, black);
+    opacity: 89%; */
 }
 
 .sun, .mon, .tue, .wed, .thu, .fri, .sat, .days {
@@ -94,4 +106,31 @@ input {
 .forecast-svg {
     width: 4vw;
     height:4vh;
+}
+
+.loader {
+    border: 11px solid silver;
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    position: absolute;
+    margin-left: 49%;
+    margin-top: 11%;
+    border-color: greenyellow yellow green skyblue;
+    animation: spin 1.1s linear infinite;
+    display: none;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.contrasted {
+    background-image: linear-gradient(to left, silver, black);
+    opacity: 89%;
 }
