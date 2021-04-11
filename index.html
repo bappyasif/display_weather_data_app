@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather APP</title>
+    <!-- <link rel="stylesheet" href="../../css/style.css" /> -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -15,42 +16,10 @@
         <input type="text" id="enter-city" />
       </fieldset>
       <div class="weather">
-        <div class="left-view">
-          <div class="city-detail">
-            <div class="city-name">dhaka</div>
-            <div class="w-type">haze</div>
-          </div>
-          <div class="w-now">
-            <div class="svg-div">{}{}</div>
-            <div class="temp-div">29</div>
-          </div>
-        </div>
-        <div class="right-view">
-          <div class="temp-details">Temperature Details</div>
-          <fieldset>
-            <label>feels like</label>
-            <div class="feels-like">31</div>
-          </fieldset>
-          <fieldset>
-            <label>max-temp</label>
-            <div class="max-temp">31</div>
-          </fieldset>
-          <fieldset>
-            <label>min-temp</label>
-            <div class="min-temp">29</div>
-          </fieldset>
-          <fieldset>
-            <label>humidity</label>
-            <div class="humidity">65</div>
-          </fieldset>
-        </div>
       </div>
-      <label>Weekly Forecast</label>
+      <label class="show-label">Weekly Forecast</label>
       <div class="days-forecast"></div>
     </div>
-    <!-- <script src="js/usingPromiseAndFetch.js"></script> -->
-    <!-- <script src="js/usingAsyncAndAwait.js"></script> -->
-    <script type="module" src="js/usingModules/init.js"></script>
-    <!-- <script type="module" src="js/thoughtExperiment/init.js"></script> -->
+    <script type="module" src="js/thoughtExperiment/init.js"></script>
   </body>
 </html>
