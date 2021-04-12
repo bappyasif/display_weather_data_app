@@ -126,13 +126,20 @@ function createRightViewNode(dataObj) {
 
 function getSvgIconUrl(weatherType) {
   let svgTypes = {
-    haze: "../../icons/heavy_clouds.svg",
-    cloud: "../../icons/mostly_cloudy.svg",
-    mist: "../../icons/partly_cloudy.svg",
-    clear: "../../icons/mostly_sunny.svg",
-    rain: "../../icons/sunny_rainy.svg",
-    storm: "../../icons/sun_rain.svg",
-    scat: "../../icons/less_cloudy.svg"
+    // haze: "../../icons/heavy_clouds.svg",
+    // cloud: "../../icons/mostly_cloudy.svg",
+    // mist: "../../icons/partly_cloudy.svg",
+    // clear: "../../icons/mostly_sunny.svg",
+    // rain: "../../icons/sunny_rainy.svg",
+    // storm: "../../icons/sun_rain.svg",
+    // scat: "../../icons/less_cloudy.svg"
+    haze: "../icons/heavy_clouds.svg",
+    cloud: "../icons/mostly_cloudy.svg",
+    mist: "../icons/partly_cloudy.svg",
+    clear: "../icons/mostly_sunny.svg",
+    rain: "../icons/sunny_rainy.svg",
+    storm: "../icons/sun_rain.svg",
+    scat: "../icons/less_cloudy.svg"
   };
 
   for (let key in svgTypes) {

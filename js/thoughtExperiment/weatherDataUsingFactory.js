@@ -103,8 +103,9 @@ function WeatherData(currentUrl) {
     let today = new Date().getDay();
 
     forecastData.forEach((forecast) => {
-      dailyForecastedWeatherData(forecast, today);
       today += 1;
+      dailyForecastedWeatherData(forecast, today);
+      // today += 1;
       today = whichDayOfWeek(today);
     });
   }
